@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class soma {
+public class parouimpar {
     public static void main(String[] args) {
         
         Scanner teclado = new Scanner(System.in);
