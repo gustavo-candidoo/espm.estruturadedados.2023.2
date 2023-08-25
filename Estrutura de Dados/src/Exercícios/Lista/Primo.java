@@ -1,6 +1,6 @@
 package Exercícios.Lista;
 
-public class Ex03 {
+public class Primo {
     public static void main(String[] args) {
         int n = 12;
         int qtdDivisor = 0;

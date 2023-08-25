@@ -5,9 +5,14 @@ public class Main {
         Lista lista = new Lista();
 
         lista.inserirInicio(12, "Gustavo");
-        lista.inserirInicio(30, "Sandra");
-        lista.inserirInicio(50, "Flávio");
+        lista.inserirInicio(13, "Selmini");
 
-        lista.imprimir();
+        No aux = lista.pesquisar(12);
+        if(aux != null) {
+            System.out.println(aux.nome);
+        }
+        else {
+            System.out.println("Aluno não encotrado");
+        }
     }
 }

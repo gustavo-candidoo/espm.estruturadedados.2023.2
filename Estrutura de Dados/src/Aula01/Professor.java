@@ -21,4 +21,9 @@ public class Professor {
 
         return (salarioBase + horaAtividade + descanso);
     }
+
+    @Override
+    public String toString(){
+        return nome;
+    }
 }

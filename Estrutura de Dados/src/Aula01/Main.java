@@ -5,6 +5,7 @@ public class Main {
         
         Professor p = new Professor("Gustavo", 40, 110);
 
-        System.out.println(p.calcularSalario());
+        //System.out.println(p.calcularSalario());
+        System.out.println(p);
     }
 }

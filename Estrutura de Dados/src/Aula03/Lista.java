@@ -23,8 +23,11 @@ public class Lista {
     }
 
     // inserir um aluno no final da lista
+    public void inserirFinal(int ra, String nome) {
 
-    //metódo para imprimir os elementos da lista
+    }
+
+    // metódo para imprimir os elementos da lista
     public void imprimir() {
         No aux = inicio;
 
@@ -32,5 +35,17 @@ public class Lista {
             System.out.println(aux.nome + " " + " " + aux.ra);
             aux = aux.dir;
         }
+    }
+
+    // metódo para pesquisar um aluno pelo RA e retorna o endereço do objeto
+    public No pesquisar(int ra) {
+        No aux = inicio;
+        while(aux != null) {
+            if(aux.ra == ra) {
+                return aux;
+            }
+            aux = aux.dir;
+        }
+        return null;
     }
 }
