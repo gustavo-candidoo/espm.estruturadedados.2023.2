@@ -12,7 +12,7 @@ public class Main {
             System.out.println(aux.nome);
         }
         else {
-            System.out.println("Aluno não encotrado");
+            System.out.println("Aluno não encontrado");
         }
     }
 }
