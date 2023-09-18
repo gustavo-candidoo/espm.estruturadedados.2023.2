@@ -18,7 +18,7 @@ public class Playlist {
         int n = teste.size();
 
         for(i = 0; i < n; i++) {
-            System.out.println("Posição %d- %s-n", n, teste.get(i));
+            System.out.println("Posição %d- %s\n", i, teste.get(i));
         }
     }
 }
